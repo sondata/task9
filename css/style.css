@@ -1,0 +1,52 @@
+* {
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+    body {
+        font-family: Verdana, Arial, serif;
+        font-size:62.5%;
+        line-height: 1.2;
+        color: #040404;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+        margin: 0 0 0.6em;
+    }
+    h1 {
+        font-size: 2.1rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+    h4, h5, h6 {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    p, ul, blockquote {
+        margin: 0 0 0.8em;
+    }
+    .wrapper {
+        margin: 1rem auto;
+        width: 87.5%;
+        min-width: 290px;
+        max-width: 560px;
+        font-size: 1.2rem;
+        border: 0.1rem solid #eaeaea;
+        border-radius: 0.5rem;
+    }
+    .page-header, .page-content {
+        padding: 4% 5%;
+    }
+    .page-header {
+        background: #eaeaea;
+    }
+    .page-title {
+        margin: 0;
+    }
+    .page-content {
+        background: #f6f6f6;
+    }
