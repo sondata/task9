@@ -108,7 +108,6 @@
         var seconds = 60;
 
         var elID = obj.rel;
-        console.log(document.querySelector('#answare-button' + elID));
         document.querySelector('#answare-button' + elID).classList.remove('disable');
         document.querySelector('#start-button' + elID).classList.add('disable');
         document.querySelector('#user' + elID).removeAttribute('readonly');
