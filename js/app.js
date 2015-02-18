@@ -74,7 +74,7 @@ var answare = function(obj) {
     var rightAnsware = document.getElementById('answare' + elID).value.toLowerCase();
     var userAnsware = document.getElementById('user' + elID).value.toLowerCase();
 
-    if (rightAnsware == userAnsware) {
+    if (rightAnsware.toString().toLowerCase() === userAnsware.toString().toLowerCase()) {
         alert('Правилно!');
         resetCountDown();
         loadTasks();
